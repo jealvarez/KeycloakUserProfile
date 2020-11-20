@@ -1,6 +1,6 @@
-# **Keycloak User Profile Solution**
+# **KeycloakUserProfileUi**
 
-Application integrated with Keycloak used to access to Keycloak user account page.
+Used to access to Keycloak user account page.
 
 ## **Author**
 
@@ -17,7 +17,6 @@ Jorge Alvarez <alvarez.jeap@gmail.com>
 - Run application
 
 ```sh
-cd KeycloakUserProfileUi
 dotnet watch run
 ```
 
