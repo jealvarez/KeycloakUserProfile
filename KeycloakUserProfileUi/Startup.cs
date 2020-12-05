@@ -68,6 +68,9 @@ namespace KeycloakUserProfileUi
         // Client configured in the Keycloak
         options.ClientId = Configuration["Keycloak:ClientId"];
 
+        // Client secret configured in the Keycloak
+        options.ClientSecret = Configuration["Keycloak:ClientSecret"];
+
         // For testing we disable https (should be true for production)
         options.RequireHttpsMetadata = false;
         options.SaveTokens = true;
